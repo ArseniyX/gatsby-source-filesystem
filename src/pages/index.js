@@ -1,4 +1,5 @@
 import React from "react"
+import { Container } from "../components"
 // import { Link } from "gatsby"
 
 // import Layout from "../components/layout"
@@ -7,10 +8,10 @@ import React from "react"
 
 const IndexPage = () => (
   <>
-   {/* <Layout>
+    {/* <Layout>
      <SEO title="Home" />
      <h1>Hi people</h1> */}
-     <p>Welcome to your new Gatsby site.</p>
+    <Container><h1>Hello World!</h1></Container>
     {/* <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
